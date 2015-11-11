@@ -170,6 +170,16 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+    min-height: 150px;
+}
+
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -242,7 +252,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 1.8em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -353,7 +363,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
